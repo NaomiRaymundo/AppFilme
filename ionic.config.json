@@ -1,0 +1,7 @@
+{
+  "name": "appfilme",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

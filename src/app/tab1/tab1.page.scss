@@ -1,0 +1,25 @@
+ion-item
+{
+    ion-thumbnail {
+    height: 100%;
+    }
+}
+
+h1{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+p{
+    font-size: 0.6rem;
+}
+
+p+p{
+    color: #8a8a8a;
+}
+
+ion-chip {
+    padding-inline-start: 3px;
+    padding-inline-end: 3px;
+
+}

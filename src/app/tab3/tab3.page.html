@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 3
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <form [formGroup]="formCadastro">
+   <ion-item>
+     <ion-label position="floating">Nome</ion-label>
+     <ion-input formControlName="nome"> </ion-input>
+   </ion-item>
+
+   <ion-item>
+    <ion-label position="floating">CPF</ion-label>
+    <ion-input formControlName="cpf"> </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">E-mail</ion-label>
+    <ion-input formControlName="email"> </ion-input>
+  </ion-item>
+
+  <ion-button expand="block" (click)="salvarCadastro()">Salvar</ion-button>
+ </form>
+</ion-content>

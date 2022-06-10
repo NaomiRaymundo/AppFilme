@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Videos App
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-searchbar placeholder="Buscar"> </ion-searchbar>
+  <ion-list>
+      <ion-item-sliding>
+    <ion-item>
+      <ion-thumbnail>
+        <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gm2Dvt7GB5XuJgtHkfEy1KYRZw4.jpg">
+      </ion-thumbnail>
+      <ion-label class="ion-text-wrap">
+        <h1>Heartstopper (2022)</h1>
+        <p>09/05/2022 (BR) - 30 m</p>
+        <p>Drama</p>
+      </ion-label >
+      <ion-chip color="success" outline>
+        <ion-label>88%</ion-label>
+      </ion-chip>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option><ion-icon slot="icon-only" name="heart"></ion-icon></ion-item-option>
+    </ion-item-options>
+      </ion-item-sliding>
+      <ion-item-sliding>
+          <ion-item>
+            <ion-thumbnail>
+              <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49WJfeN0moxb9IPfGn8AIqMGskD.jpg">
+          
+            </ion-thumbnail>
+            <ion-label class="ion-text-wrap">
+              <h1>Stranger Things (2016)</h1>
+              <p>14/07/2016 (BR) - 50 m</p>
+              <p>Drama, Mistério, Sci-Fi & Fantasy</p>
+            </ion-label >
+            <ion-chip color="success" outline>
+              <ion-label>86%</ion-label>
+            </ion-chip>
+          </ion-item>
+          <ion-item-options side="end">
+            <ion-item-option><ion-icon slot="icon-only" name="heart"></ion-icon></ion-item-option>
+          </ion-item-options>
+            </ion-item-sliding>
+  </ion-list>
+</ion-content>
