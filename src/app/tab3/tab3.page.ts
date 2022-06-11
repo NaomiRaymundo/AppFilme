@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-tab3',
@@ -20,9 +20,8 @@ export class Tab3Page {
     })
   }
 
-}
+  salvarCadastro() {
 
-salvarCadastro(){
-
-  console.log('formulário: ', this.formCadastro.valid);
+    console.log('formulário: ', this.formCadastro.valid);
+  }
 }
